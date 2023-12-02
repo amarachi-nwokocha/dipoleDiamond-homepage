@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500&family=Inter:wght@300;400;500;800;900&family=Poppins:wght@100;200;300;500;700&family=Sora&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color:  #fff;
+  color: #000000;
+  font-family: 'DM Sans', sans-serif;
+}
+@layer base{
+  html {
+      @apply scroll-smooth
+  }
+ /* button{
+   @apply bg-textBlue my-4 px-6 py-2 rounded-md text-white  text-lg
+ } */
+ button {
+  @apply px-4 py-2 bg-textBlue rounded-sm text-white
+}
+ li {
+  @apply p-4 text-lg
+}
+}
